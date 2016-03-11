@@ -48,4 +48,6 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 (custom-set-faces
- '(caml-types-expr-face ((t (:background "white" :foreground "black"))) t))
+ '(caml-types-expr-face ((t (:background "white" :foreground "black"))) t)
+ '(popup-summary-face ((t (:inherit popup-face :foreground "black"))))
+ )
